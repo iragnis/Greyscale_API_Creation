@@ -351,9 +351,11 @@ curl -X POST -H "Content-Type: image/jpeg" -H "Accept: application/json" --data-
 * Verify by opening latest log file in logs directory. There should be log of server starting, or simply go to url: http://127.0.0.1:9900/detect, `Image not received` response will be received.
 
 # Output
-![Screenshot_from_2023-03-11_17-50-04](/uploads/244b198139443d944fcb37f401aa2599/Screenshot_from_2023-03-11_17-50-04.png)
 
-![Screenshot_from_2023-03-11_17-51-15](/uploads/06d1945fb5c2c9c47facb37020bd697f/Screenshot_from_2023-03-11_17-51-15.png)
+![Screenshot from 2023-03-10 20-07-33](https://user-images.githubusercontent.com/97392797/225939436-88c96950-f367-4c34-9683-23deb540cea3.png)
+
+
+![Screenshot from 2023-03-11 17-51-15](https://user-images.githubusercontent.com/97392797/225939053-b5bef594-728f-4e74-9a70-34637c6c9392.png)
 
 # solutions to common errors
 
@@ -373,7 +375,8 @@ ensure you have the model and inputs in the directory
 * pip install opencv-python
 
 4. ``` connection refused ```
- ![Screenshot_from_2023-03-09_19-14-53](/uploads/b3de24f191da69290c8bc92b283f34e4/Screenshot_from_2023-03-09_19-14-53.png)
+![Screenshot from 2023-03-09 19-14-53](https://user-images.githubusercontent.com/97392797/225940359-4c8c5e0e-2270-4309-af60-4b477c6a5241.png)
+
 ```
 solution : try the following command
 
